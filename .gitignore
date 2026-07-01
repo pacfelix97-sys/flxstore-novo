@@ -1,1 +1,8 @@
+node_modules/
+.next/
+out/
+.env
+.env.local
+.DS_Store
+Thumbs.db
 
