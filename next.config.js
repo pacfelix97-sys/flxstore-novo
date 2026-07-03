@@ -1,8 +1,7 @@
-node_modules/
-.next/
-out/
-.env
-.env.local
-.DS_Store
-Thumbs.db
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  reactStrictMode: true,
+  swcMinify: true,
+}
 
+module.exports = nextConfig
